@@ -119,6 +119,9 @@ Comments related that code or files that are not rendered out directly should us
   //  ==================================================================
   ```
 
+  // colors
+  $evernoteGreen: #20c05c;
+
 **[⬆ back to top](#table-of-contents)**
 
 ## SASS Build Structure

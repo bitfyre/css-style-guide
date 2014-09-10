@@ -6,6 +6,9 @@ Evernote CSS Style Guide
   1. [Properties Ordering](#property-ordering)
   2. [Selector Depth](#selector-depth)
   3. [Basic Code Formatting](#basic-code-formatting)
+  4. [Color values](#color-values)
+  5. [Comments](#comments)
+  6. [Sass Build Structure](#sass-build-structure)
 
 ## Properties Ordering
 
@@ -84,4 +87,47 @@ Add a line of white space between each selector + properties block.
   ```
 
 **[⬆ back to top](#table-of-contents)**
+
+
+## Color values
+
+All hex color values should use lower case letters.
+
+Colors should be made into variables to be reused.
+
+**[⬆ back to top](#table-of-contents)**
+
+## Comments
+
+Comments related to code that is rendered out directly should use the standard slash star syntax.
+
+  ```css
+  /* Headings */
+  h1 {…}
+  h2 {…}
+  ```
+
+Comments related that code or files that are not rendered out directly should use the double slash sytnax. This should be used in places where we might be labeling a group of variables, or a mixin that will be used later, or a file that is a library of such things.
+
+  ```css
+  // ===================================================================
+  //  Copyright 2014 Evernote Corporation. All rights reserved.
+  //
+  //  Variables
+  //
+  //  Base set of variables for use with the web project
+  //  ==================================================================
+  ```
+
+**[⬆ back to top](#table-of-contents)**
+
+## SASS Build Structure
+
+See how Evernote Front End Engineers handle a simple build structure for SASS files.
+
+[Evernote SASS build structure](https://github.com/evernote/sass-build-structure)
+
+**[⬆ back to top](#table-of-contents)**
+
+
 

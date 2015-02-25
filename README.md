@@ -1,4 +1,4 @@
-Evernote CSS Style Guide
+CSS Style Guide
 ===============
 
 ## Table of Contents
@@ -8,7 +8,6 @@ Evernote CSS Style Guide
   3. [Basic Code Formatting](#basic-code-formatting)
   4. [Color values](#color-values)
   5. [Comments](#comments)
-  6. [Sass Build Structure](#sass-build-structure)
 
 ## Properties Ordering
 
@@ -111,7 +110,7 @@ Comments related that code or files that are not rendered out directly should us
 
   ```css
   // ===================================================================
-  //  Copyright 2014 Evernote Corporation. All rights reserved.
+  //  Copyright 2015 Org Name. All rights reserved.
   //
   //  Variables
   //
@@ -120,17 +119,8 @@ Comments related that code or files that are not rendered out directly should us
   ```
 
   // colors
-  $evernoteGreen: #20c05c;
+  $brandGreen: #20c05c;
 
 **[⬆ back to top](#table-of-contents)**
-
-## SASS Build Structure
-
-See how Evernote Front End Engineers handle a simple build structure for SASS files.
-
-[Evernote SASS build structure](https://github.com/evernote/sass-build-structure)
-
-**[⬆ back to top](#table-of-contents)**
-
 
 
